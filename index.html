@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
++
+
+<body>
+    <p> Bienvenue au jeu</p>
+    <h1>Regles du jeu</h1>
+    <ul>
+        <li>2 joueurs <b>maximum</b></li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+    <table id="tableau-jeu">
+        <tr>
+            <td id="btn-1">
+                <input type="button"onclick="onButtonClick(this,0,0)" class="btn" />
+            </td>
+            <td id="td-2">
+                <input type="button"onclick="onButtonClick(this,0,1)" class="btn"/>
+            </td>
+            <td id="td-3">
+                <input type="button"onclick="onButtonClick(this,0,2)" class="btn"/>
+            </td>
+        </tr>
+        <tr>
+            <td id="td-4">
+                <input type="button"onclick="onButtonClick(this,1,0)" class="btn"/>
+            </td>
+
+            <td id="td-5">
+                <input type="button"onclick="onButtonClick(this,1,1)" class="btn"/>
+            </td>
+            <td id="td-6">
+                <input type="button"onclick="onButtonClick(this,1,2)" class="btn"/>
+            </td>
+        </tr>
+        <tr>
+            <td id="td-7">
+                <input type="button"onclick="onButtonClick(this,0,2)" class="btn"/>
+            </td>
+            <td id="td-8">
+                <input type="button"onclick="onButtonClick(this,1,2)" class="btn"/>
+            </td>
+            <td id="td-9">
+                <input type="button"onclick="onButtonClick(this,2,2)" class="btn"/>
+            </td>
+        </tr>
+    </table>
+    <h3 id="alert"></h3>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+#tableau-jeu td {
+    border: 1px solid lightgray;
+    width: 30px;
+    height: 30px;
+}
+
+/*bordure gauche*/
+#tableau-jeu #td-1,
+#tableau-jeu #td-4,
+#tableau-jeu #td-7 {
+    border-left: 0;
+}
+
+/*bordure droite*/
+#tableau-jeu #td-3,
+#tableau-jeu #td-6,
+#tableau-jeu #td-9 {
+    border-right: 0;
+}
+
+/*bordure basse*/
+#tableau-jeu #td-7,
+#tableau-jeu #td-8,
+#tableau-jeu #td-9 {
+    border-bottom: 0;
+}
+
+/*bordure haute*/
+#tableau-jeu #td-1,
+#tableau-jeu #td-2,
+#tableau-jeu #td-3 {
+    border-bottom: 0;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    color: blue;
+}
